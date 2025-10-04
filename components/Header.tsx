@@ -1,8 +1,10 @@
+// Header.tsx: Navigation menu for all pages of the app
 import Link from "next/link";
 
 export default function Header() {
   return (
     <nav style={{ padding: "1rem", background: "#222", color: "#fff" }}>
+      {/* Navigation links using Next.js Link component */}
       <Link href="/" style={{ marginRight: "1rem", color: "#61dafb" }}>
         Home
       </Link>
